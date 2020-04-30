@@ -1,0 +1,11 @@
+{
+  "parser": "babel-eslint",
+  "extends": "standard",
+  "plugins": ["html", "vue"],
+  "rules": {
+    "no-eval": 0
+  },
+  "globals": {
+    "to": true
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "env": {
+    "development": {
+      "presets": [
+        [ "env", {
+          "targets": {
+            "chrome": 60
+          },
+          "modules": false
+        }]
+      ],
+      "plugins": [
+        "transform-object-rest-spread",
+        "transform-class-properties",
+        ["component", [
+          {
+            "libraryName": "element-ui",
+            "styleLibraryName": "theme-default"
+          }
+        ]]
+      ]
+    },
+    "production": {
+      "presets": [
+        [ "env", {
+          "targets": {
+            "browsers": [ "last 2 versions" ]
+          },
+          "modules": false
+        }]
+      ],
+      "plugins": [
+        "transform-object-rest-spread",
+        "transform-class-properties",
+        ["component", [
+          {
+            "libraryName": "element-ui",
+            "styleLibraryName": "theme-default"
+          }
+        ]]
+      ]
+    }
+  }
+}

@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
+}
+
+p, body, html, span {
+  font-family:
+    /* 1 */ -apple-system, BlinkMacSystemFont,
+    /* 2 */ "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    /* 3 */ "Helvetica Neue", sans-serif;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+:root {
+  --color-main: #20A0FF;
+  --color-success: #13CE66;
+  --color-warning: #F7BA2A;
+  --color-error: #FF4949;
+}

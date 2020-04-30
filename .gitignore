@@ -1,0 +1,8 @@
+node_modules
+dist
+.idea/
+npm-debug.log
+.DS_Store
+/yarn.lock
+/package-lock.json
+/0data
