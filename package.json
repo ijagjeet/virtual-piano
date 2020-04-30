@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "await-to-js": "^1.0.1",
-    "axios": "^0.16.1",
+    "axios": "^0.19.2",
     "babel-cli": "^6.24.1",
     "babel-plugin-component": "^0.10.0",
     "babel-plugin-transform-async-to-generator": "^6.24.1",
